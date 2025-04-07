@@ -16,7 +16,7 @@ Nếu chạy trên máy android thật thì vào:
     
     ChatAppGemini\app\src\main\res\xml\network_security_config.xml và sửa IP thành IP máy chạy API của bạn (ví dụ: 192.168.1.154)
 
-Còn trên máy android ảo của Android Studio thì sửa thành http://10.0.2.2:8000 và 10.0.2.2
+Còn trên máy Android ảo của Android Studio thì sửa thành http://10.0.2.2:8000 và 10.0.2.2
 
-Trong trường hợp máy thật không thể ping tới Api thì có thể do tường lửa chặn, bạn có thể tắt tường lửa hoặc
+Trong trường hợp máy Android thật không thể ping tới Api thì có thể do tường lửa chặn, bạn có thể tắt tường lửa hoặc
 truy cập Windows Defender Firewall with Advanced Security và vào Inbound Rules -> New Rule, tạo rule cho phép truy cập vào Port: 8000
