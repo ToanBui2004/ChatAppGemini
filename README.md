@@ -1,7 +1,7 @@
 Đầu tiên truy cập https://github.com/abetdt/fastapi-chat-with-gemini, 
 thực hiện theo hướng dẫn nhưng trước khi kích hoạt môi trường ảo thì chạy
 
-    pip insatll tzdata 
+    pip install tzdata 
  
 và ở bước cuối không chạy code đề xuất là chạy:
 
