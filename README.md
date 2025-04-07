@@ -18,4 +18,4 @@ Nếu chạy trên máy android thật thì:
 Còn trên máy android ảo của Android Studio thì sửa thành http://10.0.2.2:8000 và 10.0.2.2
 
 Trong trường hợp máy thật không thể ping tới Api thì có thể do tường lửa chặn, bạn có thể tắt tường lửa hoặc
-truy cập Windows Defender Firewall with Advanced Security và vào Inbound Rules -> New Rule, tạo rule cho phép truy cậo vào Port: 8000
+truy cập Windows Defender Firewall with Advanced Security và vào Inbound Rules -> New Rule, tạo rule cho phép truy cập vào Port: 8000
