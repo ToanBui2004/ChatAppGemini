@@ -7,13 +7,14 @@ và ở bước cuối chạy
 
     uvicorn main:app --host 0.0.0.0 --port 8000
 
-tiếp theo tải app về 
+Tiếp theo tải app về 
 
-Nếu chạy trên máy android thật thì:
 
-    ChatAppGemini\app\src\main\java\com\example\chatapp\ApiClient.java và sửa IP thành IP máy bạn (ví dụ: http://192.168.1.154:8000)
+Nếu chạy trên máy android thật thì vào:
+
+    ChatAppGemini\app\src\main\java\com\example\chatapp\ApiClient.java và sửa IP thành IP máy chạy API của bạn (ví dụ: http://192.168.1.154:8000)
     
-    ChatAppGemini\app\src\main\res\xml\network_security_config.xml và sửa IP thành IP máy bạn (ví dụ: 192.168.1.154)
+    ChatAppGemini\app\src\main\res\xml\network_security_config.xml và sửa IP thành IP máy chạy API của bạn (ví dụ: 192.168.1.154)
 
 Còn trên máy android ảo của Android Studio thì sửa thành http://10.0.2.2:8000 và 10.0.2.2
 
