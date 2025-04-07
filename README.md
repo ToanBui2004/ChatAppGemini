@@ -3,7 +3,7 @@ thực hiện theo hướng dẫn nhưng trước khi kích hoạt môi trườn
 
     pip insatll tzdata 
  
-và ở bước cuối chạy
+và ở bước cuối không chạy code đề xuất là chạy:
 
     uvicorn main:app --host 0.0.0.0 --port 8000
 
