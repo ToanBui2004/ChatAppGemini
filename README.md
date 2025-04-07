@@ -3,7 +3,7 @@ thực hiện theo hướng dẫn nhưng trước khi kích hoạt môi trườn
 
     pip install tzdata 
  
-và ở bước cuối không chạy code đề xuất là chạy:
+và ở bước cuối không chạy code đề xuất mà chạy:
 
     uvicorn main:app --host 0.0.0.0 --port 8000
 
